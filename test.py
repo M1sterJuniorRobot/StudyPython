@@ -14,7 +14,9 @@ def attack():
     health = health - damage
     print(health)
 
-
+if health < 5:
+    money = money + 5
+    print('now you have' + money + 'money') #not starting when health <5 ;(
 
 
 
